@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Holly Company</title>
+    <meta name="description" content="Holly" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic" rel="stylesheet">
+  </head>
+  <body>
+    <header id="header">
+      <h1 class="site-title">
+        <a href="#">
+         <img src="./img/holly_logo.avif" height="120" width="150" alt="HOLLY CONPANY">
+        </a>
+      </h1>
+      <nav>
+        <ul>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#product">PRODUCT LIST</a></li>
+          <li><a href="#popup">POP UP</a></li>
+          <li><a href="#contact">Contact</a></li>
+        <li><a href="https://www.instagram.com/holly__company/?hl=ja" target="_blank" rel="instagram">
+          <img src="./img/ico-instagram.png" alt="instagram" class="icon">
+        </a></li>
+        <li><a href="" target="_blank" rel="youtube">
+            <img src="./img/ico-youtube.png" alt="youtube" class="icon">
+          </a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div id="mainvisual">
+        <picture>
+          <source media="(max-width: 600px)" srcset="./img/IMG_1917.jpg">
+          <img src="./img/IMG_1911.jpg" alt="Holly">
+        </picture>
+      </div>
+
+      <section id="about" class="wrapper">
+        <h2 class="sec-title">ABOUT</h2>
+        <ul>
+          <li>HOLLY CONPANY</li>
+          <li>SkateBoarding Crewとして設立
+          </li>
+          <li>POP UPのブッキング、又共同作品制作承ります。
+          </li>
+          <li>メールアドレス：Holly__company@xxx.com</li>
+        </ul>
+        <p>
+            厳選したボディーを使用し、シルクスクリーンで一枚一枚手刷りで作成しております。
+        </p>
+      </section>
+
+      <section id="product" class="wrapper">
+        <h2 class="sec-title">PRODUCT LIST</h2>
+        <ul>
+          <li>
+            <a href="./charcoal.html" target="_blank" rel="throwuphoodie">
+              <img src="./img/IMG_1923.jpg" alt="throwuphoodie">
+            </a>
+          </li>
+          <li><a href="" target="_blank" rel="throwuptee">
+            <img class="mask" src="./img/IMG_1934.jpg" alt="throwuptee">
+            </a>
+          </li>
+          <li><a href="" target="_blank" rel="throwuphoodie">
+            <img class="mask" src="./img/IMG_1927.jpg" alt="throwuphoodie">
+            </a>
+          </li>
+          <li><a href="" target="_blank" rel="throwuphoodie">
+            <img class="mask" src="./img/IMG_1925.jpg" alt="throwuphoodie">
+            </a>
+          </li>
+          <li><a href="" target="_blank" rel="throwuptee">
+            <img class="mask" src="./img/IMG_1924.jpg" alt="throwuptee">
+            </a>
+          </li>
+          <li><a href="" target="_blank" rel="cross">
+            <img class="mask" src="./img/cross_crew_neck_1.jpg" alt="cross">
+            </a>
+          </li>
+          <li><a href="" target="_blank" rel="wappen">
+            <img class="mask" src="./img/261C0572-DB3F-4BA3-920B-BE96EBC0456B.jpg" alt="wappen">
+            </a>
+          </li>
+          <li><a href="" target="_blank" rel="lighter">
+            <img class="mask" src="./img/0D5CAE24-8B5B-4D88-80E2-9E9734B3BFF1.jpg" alt="lighter">
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section id="popup" class="wrapper">
+        <h2 class="sec-title">POP UP</h2>
+        <dl>
+                <dt><img src="./img/IMG_1479.jpg" alt="backloll"></dt>
+                <dd id="dd">2023/12/30</dd>
+                <dd id="dd2">EBISU BATICA 2023 Last Party "BACKLOLL"</dd>
+        </dl>
+        <dl>
+                <dt><img src="./img/3B5147B5-AAA9-46BD-B99A-A6C06718731E.jpg" alt="opensource"><br></dt>
+                <dd id="dd">2023/10/22</dd>
+                <dd id="dd2">中野Open source 2nd Anniversary</dd>
+        </dl>
+      </section>
+      <section id="contact" class="wrapper">
+        <h2 class="sec-title">CONTACT</h2>
+        <p>お問い合わせ、POP UPのお誘いは以下のフォームから
+        </p>
+        <form action="#" method="post" id="img">
+          <dl>
+            <dt><label for="name">Name</label></dt>
+            <dd><input type="text" id="name"></dd>
+            <dt><label for="email">E-mail</label></dt>
+            <dd><input type="email" id="email"></dd>
+            <dt><label for="name">Contact</label></dt>
+            <dd><textarea id="content" cols="30" rows="10"></textarea></dd>
+          </dl>
+          <div class="button"><input type="submit" value="送信"></div>
+        </form>
+      </section>
+
+      <footer id="footer">
+        <ul>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#product">PRODUCT LIST</a></li>
+            <li><a href="#popup">POP UP</a></li>
+        </ul>
+        <p id="copy">&copy; Holly Conpany</p>
+      </footer>
+    </main>
+  </body>
+</html>
